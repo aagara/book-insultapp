@@ -19,6 +19,26 @@
 			<version>2.5</version>
 			<scope>provided</scope>
   		</dependency>
+  		<!-- https://mvnrepository.com/artifact/org.wildfly/wildfly-jaxrs -->
+		<dependency>
+		    <groupId>org.wildfly</groupId>
+		    <artifactId>wildfly-jaxrs</artifactId>
+		    <version>10.0.0.Final</version>
+		    <scope>provided</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.enterprise/cdi-api -->
+		<dependency>
+		    <groupId>javax.enterprise</groupId>
+		    <artifactId>cdi-api</artifactId>
+		    <version>1.0-SP1</version>
+		    <scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>7.0</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
